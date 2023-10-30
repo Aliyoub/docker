@@ -26,3 +26,4 @@ yarn-error.log*
 ReadmePerso.md
 .vagrant/
 launcher.sh
+Vagrantfile

@@ -1,4 +1,6 @@
-!#bash
+#!/bin/bash
+
+# https://tecadmin.net/how-to-install-nvm-on-ubuntu-20-04/
 
 # Pour installer la dernière version de node
 nvm install node

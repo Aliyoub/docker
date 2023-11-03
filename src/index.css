@@ -14,7 +14,7 @@ body {
   color: var(--text-color);
 }
 
-/* Global */
+
 svg {
   width: 1.5rem;
 }
@@ -35,7 +35,6 @@ button.icon {
   height: 100%;
 }
 
-/* header */
 header.header {
   position: fixed;
   top: 0;
@@ -66,12 +65,11 @@ header .logo span {
 
 
 header .logo span.title {
-  font-size: 2rem;
-  color: #E6522B;
+  font-size: 1.5rem;
+  color: #2297EC;
   font-weight: bold;
 }
 
-/* Post */
 .article {
   margin: 4rem 0;
 }
@@ -80,7 +78,6 @@ header .logo span.title {
   width: 100%;
 }
 
-/* Code */
 .code {
   position: relative;
 }
@@ -97,15 +94,51 @@ header .logo span.title {
 }
 
 .CopiedIcon {
-  background-color:#E6522B; color:#FFFFFF; padding: 5px
+  background-color:#2297EC; color:#FFFFFF; padding: 5px
 }
 
 .introduction {
-  background-color: #FAFAFA;
-  padding: 15px;
-  color: #91A3AE;
-  margin-bottom: 4rem;
-  font-family: 'Roboto', sans-serif;
-  line-height: 1.5rem;
-  text-align: justify;
+    text-align:justify;
+    /* white-space: pre;
+    word-break: normal;
+    word-spacing: normal;
+    overflow-wrap: normal; */
+    color: rgb(238, 238, 238);
+    background: rgb(47, 47, 47);
+    font-family: "Roboto Mono", monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+    /* tab-size: 4; */
+    padding: 15px;
+    margin-bottom: 5rem;
+    /* hyphens: none; */
 }
+
+.description {
+    text-align:justify;
+    color: rgb(238, 238, 238);
+    background: rgb(47, 47, 47);
+    font-family: "Roboto Mono", monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 15px;
+}
+
+
+
+.sub-title {
+  color: #2297EC;
+  font-size: 1.1rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+}
+
+.byme {
+  color: #2297EC;
+  font-size: .9rem;
+}
+
+.profilephoto img {
+  width: 50px;
+  border-radius: 50%;
+  }

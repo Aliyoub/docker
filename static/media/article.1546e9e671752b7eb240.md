@@ -47,7 +47,7 @@ sudo mkdir -m 0755 -p /etc/apt/keyrings
 <span class="sub-title">Récupération de la clé gpg depuis le site officiel de Docker, à l’adresse suivante:  download.docker.com/linux/ubuntu/gpg, 
 <br />pour l’installer dans le répertoire préalablement crée: etc/apt/keyrings
 <br />Nommons cette clé docker.gpg</span>
-<Code language="php">
+<Code language="java">
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 </Code>
 <img src="/docker/images/docker-gpg.png" style="width:100%;"/>

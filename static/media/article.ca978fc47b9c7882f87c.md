@@ -47,9 +47,8 @@ sudo mkdir -m 0755 -p /etc/apt/keyrings
 <span class="sub-title">Récupération de la clé gpg depuis le site officiel de Docker, à l’adresse suivante:  download.docker.com/linux/ubuntu/gpg, 
 <br />pour l’installer dans le répertoire préalablement crée: etc/apt/keyrings
 <br />Nommons cette clé docker.gpg</span>
-<Code language="bash">
-curl -fsSL download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor \
--o /etc/apt/keyrings/docker.gpg
+<Code language="javascript">
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 </Code>
 <img src="/docker/images/docker-gpg.png" style="width:100%;"/>
 
@@ -57,11 +56,8 @@ curl -fsSL download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor \
 
 
 <span class="sub-title">Mise en place du dépôt Docker proprement dite</span>
-<Code language="bash">
-echo \
-  "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] \
-  download.docker.com/linux/debian \
-  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+<Code language="javascript">
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 </Code>
 
 <br />
@@ -94,7 +90,7 @@ sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin dock
 <img src="/docker/images/docker-run.png" style="width:100%;"/>
 
 
-<span class="sub-title">INSTALLATION DE DOCKER</span>
+<span class="sub-title"></span>
 <Code language="bash">
 
 </Code>

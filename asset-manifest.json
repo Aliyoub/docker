@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/docker/static/css/main.f4470194.css",
-    "main.js": "/docker/static/js/main.03d58889.js",
-    "static/js/637.f804027b.chunk.js": "/docker/static/js/637.f804027b.chunk.js",
-    "static/media/article.md": "/docker/static/media/article.ca978fc47b9c7882f87c.md",
+    "main.js": "/docker/static/js/main.4cd2f2df.js",
+    "static/js/637.fd71f31b.chunk.js": "/docker/static/js/637.fd71f31b.chunk.js",
+    "static/media/article.md": "/docker/static/media/article.fd0202df524d60b1e9e9.md",
     "static/media/docker-icon.svg": "/docker/static/media/docker-icon.4a35ac73f06cc5748b35ed3f3d0c4f78.svg",
     "index.html": "/docker/index.html",
     "main.f4470194.css.map": "/docker/static/css/main.f4470194.css.map",
-    "main.03d58889.js.map": "/docker/static/js/main.03d58889.js.map"
+    "main.4cd2f2df.js.map": "/docker/static/js/main.4cd2f2df.js.map"
   },
   "entrypoints": [
     "static/css/main.f4470194.css",
-    "static/js/main.03d58889.js"
+    "static/js/main.4cd2f2df.js"
   ]
 }

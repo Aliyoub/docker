@@ -51,6 +51,11 @@ _lsb-release pour retrouver la version de notre système d’exploitation_
 ![alt docker installation](https://aliyoub.github.io/docker/images/installation-docker.png)
 
 
-## Mise en place d'un conteneur à partir d'une image nginx
+## MISE EN PLACE D'UN CONTENEUR A PARTIR D'UNE IMAGE NGINX
 ![alt mise en place d'un conteneur](https://aliyoub.github.io/docker/images/docker-run.png)
+
+### Affichage des conteneurs
+> _docker ps -a_
+
+![alt affichage conteneurs](https://aliyoub.github.io/docker/images/docker-ps-a.png)
  

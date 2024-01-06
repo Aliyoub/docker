@@ -38,7 +38,7 @@ _lsb-release pour retrouver la version de notre système d’exploitation_
 ![alt docker installation](https://aliyoub.github.io/docker/images/docker-gpg.png)
 
 ### Mise en place proprement dite, du dépôt Docker 
-> _echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null_
+> _echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https[]()://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null_
 
 ### Mise à jour des paquets
 > _sudo apt-get update_

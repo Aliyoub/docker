@@ -33,7 +33,7 @@ _lsb-release pour retrouver la version de notre système d’exploitation_
 ### Récupération de la clé gpg depuis le site officiel de Docker, à l’adresse suivante: download.docker.com/linux/ubuntu/gpg,
 ### pour l’installer dans le répertoire préalablement crée: etc/apt/keyrings
 ### Nommons cette clé docker.gpg
-> _curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg_
+> _curl -fsSL <span>https://download.docker.com/linux/ubuntu/gpg</span> | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg_
 
 ![alt docker installation](https://aliyoub.github.io/docker/images/docker-gpg.png)
 

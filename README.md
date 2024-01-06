@@ -4,7 +4,7 @@
 ### Intanciation de la machine virtuelle
 > _sudo vagrant up_
 
-![alt vagrant up](https://aliyoub.github.io/docker/images/vagrant-up.png)
+![alt vagrant up](https[]()://aliyoub.github.io/docker/images/vagrant-up.png)
 
 
 ### Accès à la machine virtuelle par ssh

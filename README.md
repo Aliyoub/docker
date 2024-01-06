@@ -20,7 +20,7 @@
 ### Installation du dépôt Docker
 > _sudo apt install ca-certificates curl gnupg lsb-release_
 
-_gnupg pour les clés gpg_
+_gnupg pour les clés gpg_ <br/>
 _lsb-release pour retrouver la version de notre système d’exploitation_
 
 ![alt docker installation](https://aliyoub.github.io/docker/images/ca-certificates_curl_gnupg%20_lsb-release.png)

@@ -50,3 +50,7 @@ _lsb-release pour retrouver la version de notre système d’exploitation_
 
 ![alt docker installation](https://aliyoub.github.io/docker/images/installation-docker.png)
 
+
+## Mise en place d'un conteneur à partir d'une image nginx
+![alt mise en place d'un conteneur](https://aliyoub.github.io/docker/images/docker-run.png)
+ 
